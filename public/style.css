@@ -1,0 +1,105 @@
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+#app {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-container {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+#new-project-form {
+  display: flex;
+  gap: 10px;
+}
+
+#new-project-form input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#new-project-form button {
+  padding: 10px 15px;
+  border: none;
+  background: #337ab7;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#new-project-form button:hover {
+  background: #286090;
+}
+
+.project {
+  background: #f9f9f9;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+.activity-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.activity-form input[type="text"] {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.activity-form button {
+  padding: 8px 12px;
+  border: none;
+  background: #5cb85c;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.activity-form button:hover {
+  background: #4cae4c;
+}
+
+.activities-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.activities-list li {
+  background: #fff;
+  padding: 8px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  margin-top: 5px;
+}
