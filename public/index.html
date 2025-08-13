@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A/V Project Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>A/V Project Manager</h1>
+
+  <div id="app">
+    <div class="form-container">
+      <h2>Create New Project</h2>
+      <form id="new-project-form">
+        <input type="text" id="project-name" placeholder="Enter project name (e.g., Smith Residence)" required>
+        <button type="submit">Add Project</button>
+      </form>
+    </div>
+
+    <div id="projects-container">
+      <h2>Projects</h2>
+      <div id="projects-list"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
